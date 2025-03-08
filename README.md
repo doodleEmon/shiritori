@@ -1,13 +1,13 @@
-# React + Vite
+Overview
+Shiritori is a Japanese word game where players take turns entering words. Each new word must begin with the last letter of the previous word. Words cannot be repeated, and they must be valid English words. This is a simplified version of the game for two players to play on the same screen.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+Word Validation: Uses DictionaryAPI to validate words.
 
-Currently, two official plugins are available:
+Scoring: Tracks scores for each player.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Word History: Displays all previously entered words to avoid repetition.
 
-## Expanding the ESLint configuration
+Countdown Timer: Each player has a limited time to enter a word.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# shiritori" 
+Turn-Based Play: Automatically switches turns between players.
